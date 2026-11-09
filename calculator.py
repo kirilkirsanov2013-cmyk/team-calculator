@@ -11,3 +11,8 @@ def add(a, b):
 def subtract(a, b):
     """Вычитание: a - b."""
     return a - b
+
+
+def multiply(a, b):
+    """Умножение двух чисел."""
+    return a * b
