@@ -28,3 +28,8 @@ def divide(a, b):
 def power(a, b):
     """Возведение в степень."""
     return a ** b
+
+def mod(a, b):
+    """Остаток от деления."""
+    return a % b
+
