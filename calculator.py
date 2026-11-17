@@ -16,3 +16,10 @@ def subtract(a, b):
 def multiply(a, b):
     """Умножение двух чисел."""
     return a * b
+
+
+def divide(a, b):
+    """Деление: a / b, на ноль делить нельзя."""
+    if b == 0:
+        raise ValueError("Деление на ноль")
+    return a / b
